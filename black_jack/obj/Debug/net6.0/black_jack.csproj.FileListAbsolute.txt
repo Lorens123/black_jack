@@ -1,0 +1,15 @@
+C:\Users\lorens.vinge\Documents\Programmring 2\black_jack\black_jack\bin\Debug\net6.0\black_jack.exe
+C:\Users\lorens.vinge\Documents\Programmring 2\black_jack\black_jack\bin\Debug\net6.0\black_jack.deps.json
+C:\Users\lorens.vinge\Documents\Programmring 2\black_jack\black_jack\bin\Debug\net6.0\black_jack.runtimeconfig.json
+C:\Users\lorens.vinge\Documents\Programmring 2\black_jack\black_jack\bin\Debug\net6.0\black_jack.dll
+C:\Users\lorens.vinge\Documents\Programmring 2\black_jack\black_jack\bin\Debug\net6.0\ref\black_jack.dll
+C:\Users\lorens.vinge\Documents\Programmring 2\black_jack\black_jack\bin\Debug\net6.0\black_jack.pdb
+C:\Users\lorens.vinge\Documents\Programmring 2\black_jack\black_jack\obj\Debug\net6.0\black_jack.csproj.AssemblyReference.cache
+C:\Users\lorens.vinge\Documents\Programmring 2\black_jack\black_jack\obj\Debug\net6.0\black_jack.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lorens.vinge\Documents\Programmring 2\black_jack\black_jack\obj\Debug\net6.0\black_jack.AssemblyInfoInputs.cache
+C:\Users\lorens.vinge\Documents\Programmring 2\black_jack\black_jack\obj\Debug\net6.0\black_jack.AssemblyInfo.cs
+C:\Users\lorens.vinge\Documents\Programmring 2\black_jack\black_jack\obj\Debug\net6.0\black_jack.csproj.CoreCompileInputs.cache
+C:\Users\lorens.vinge\Documents\Programmring 2\black_jack\black_jack\obj\Debug\net6.0\black_jack.dll
+C:\Users\lorens.vinge\Documents\Programmring 2\black_jack\black_jack\obj\Debug\net6.0\ref\black_jack.dll
+C:\Users\lorens.vinge\Documents\Programmring 2\black_jack\black_jack\obj\Debug\net6.0\black_jack.pdb
+C:\Users\lorens.vinge\Documents\Programmring 2\black_jack\black_jack\obj\Debug\net6.0\black_jack.genruntimeconfig.cache
