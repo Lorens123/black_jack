@@ -1,9 +1,12 @@
 using System;
 
-namespace black_jack
+
+
+public class Opponent
 {
-    public class Opponent
-    {
-        
-    }
+
+    protected int startCapital;
+    // private 
+
+
 }
