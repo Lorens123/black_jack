@@ -1,7 +1,13 @@
-﻿Deck deck = new Deck();
+﻿using System.Threading.Tasks.Dataflow;
+Console.WriteLine("Tryck på tangentbordet för att slumpa ett kort!");
 
 
-// Console.WriteLine(deck);
+Deck deck = new Deck();
+
+// Console.WriteLine(deck)
+Card c = deck.Draw();
+c.PrintInfo();
+
 
 
 

@@ -9,7 +9,7 @@ public class Card
     // private string colour;
     private int Points { get; set; }
 
-
+    // Deck d = new Deck();
     // private Random generator;
 
     // List<string> numberList = new List<string>();
@@ -25,7 +25,7 @@ public class Card
 
     public void PrintInfo()
     {
-        Console.WriteLine($"Kortet jag skapar nu är {symbol} {number}");
+        Console.WriteLine($"Det här kortet är {symbol} {number}");
 
     }
 
