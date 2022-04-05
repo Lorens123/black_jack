@@ -1,3 +1,4 @@
+using System.Xml.Serialization;
 using System;
 using System.Collections.Generic;
 
@@ -8,28 +9,37 @@ public class Card
     private string symbol;
     // private string colour;
     private int Points { get; set; }
-
-    // Deck d = new Deck();
-    // private Random generator;
-
-    // List<string> numberList = new List<string>();
+    Dictionary<string, int> valueDict = new Dictionary<string, int>();
 
 
-    public Card(string aSymbol, string aNumber)
+
+    public Card(string aSymbol, string aNumber, int points)
     {
         number = aNumber;
         symbol = aSymbol;
         // colour = aColour;
+        Points = points;
 
     }
 
     public void PrintInfo()
     {
-        Console.WriteLine($"Det här kortet är {symbol} {number}");
+        Console.WriteLine($"Ditt kort är {symbol} {number}");
+        Console.WriteLine($"Du har {Points} poäng");
 
     }
 
+    public void GetPoints()
+    {
+        // return valueDict[number];
+        if (Points! <= 21)
+        {
+            Console.WriteLine("Tryck space");
+        }
 
+
+
+    }
 
 
 
