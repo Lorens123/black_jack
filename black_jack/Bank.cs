@@ -8,6 +8,7 @@ namespace black_jack
         public Bank()
         {
             startCapital = 0;
+            name = "Bank";
         }
     }
 }
