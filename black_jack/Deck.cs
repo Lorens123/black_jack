@@ -6,7 +6,10 @@ public class Deck
     // private int size;
     private Random generator = new Random();
     List<Card> cards = new List<Card>();
-
+    public List<Card> GetCards()
+    {
+        return cards;
+    }
 
 
     public Deck()
@@ -33,13 +36,9 @@ public class Deck
                 cards.Add(new Card(suit, number, v));
 
                 // return valueDict[number];
-                
-                
 
 
-            }
 
-        }
 
     }
 
