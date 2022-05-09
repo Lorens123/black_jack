@@ -4,11 +4,11 @@ using System;
 
 public class Player
 {
-    private int startCapital = 1000;
     private string name = "";
-    public int myPoints = 0;
+    private int startCapital = 1000;
     private int spendMoney = 0;
-    private int cardsInHand = 0;
+    public int myPoints = 0;
+    public int cardsInHand = 0;
 
 
 
@@ -20,7 +20,15 @@ public class Player
     {
         Card c = myDeck.Draw();
 
+        if (c.Value == 1 && myPoints <= 12)
+        {
+            c.Value = 11;
+        }
+
+
         myPoints += c.Value;
+
+        cardsInHand++;
 
 
 
@@ -46,7 +54,7 @@ public class Player
     }
     // Poäng systemet för spelaren. 
     // Koden betyder om du får mer än 21 poäng så ska det stå "du har förlorat denna hand". Hand betyder ofta i kortspel en rond.
-    // För att vinna så är det efter 5 kort dragningar ska man ha högst poäng om man är under 22. Om man får 21 poäng först så vinner man
+    // För att vinna så är det efter 5 kort dragningar ska man ha högst poäng om man är under 22. Om man får 21 poäng först så vinner man direkt
     public bool MyPoints()
     {
 

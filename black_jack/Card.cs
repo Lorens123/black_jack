@@ -32,8 +32,6 @@ public class Card
         Console.WriteLine($"{symbol} {number}");
         // Console.WriteLine($"Du har {Value} poäng");
 
-
-
     }
 
     // public void GetPoints()

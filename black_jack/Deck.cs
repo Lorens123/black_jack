@@ -5,6 +5,8 @@ public class Deck
 {
     // private int size;
     private Random generator = new Random();
+    private bool softAce;
+    private bool hardAce;
     List<Card> cards = new List<Card>();
     public List<Card> GetCards()
     {
@@ -33,7 +35,10 @@ public class Deck
                 else v = int.Parse(number);
 
 
+
+
                 cards.Add(new Card(suit, number, v));
+
             }
 
         }   // return valueDict[number];
