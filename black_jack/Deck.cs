@@ -34,8 +34,9 @@ public class Deck
 
 
                 cards.Add(new Card(suit, number, v));
+            }
 
-                // return valueDict[number];
+        }   // return valueDict[number];
 
 
 

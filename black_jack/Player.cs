@@ -7,7 +7,8 @@ public class Player
     private int startCapital = 1000;
     private string name = "";
     public int myPoints = 0;
-    private spendMoney = 0;
+    private int spendMoney = 0;
+    private int cardsInHand = 0;
 
 
 
@@ -17,8 +18,23 @@ public class Player
 
     public void MyDeck()
     {
-        
+        Card c = myDeck.Draw();
+
+        myPoints += c.Value;
+
+
+
+        // myDeck.Draw();
+        c.PrintInfo();
     }
+    // public void OpponentDeck()
+    // {
+    //     Card c = myDeck.Draw();
+    //     myPoints += c.Value;
+
+    //     // myDeck.Draw();
+    //     c.PrintInfo();
+    // }
     // Metod för att sköta bettningen där man i början av varje spel ska välja den summan man vill betta på.
     // Man kommer endast kunna betta (50, 100, 250, 500 och 1000). 
     // Twisten är om man satsar 1000 alltså hela capitalet får man dubbla summan tillbaka

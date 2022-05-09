@@ -8,6 +8,7 @@ namespace black_jack
         public Multiplayer()
         {
             startCapital = 1000;
+            
         }
     }
 }

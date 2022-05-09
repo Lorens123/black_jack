@@ -29,7 +29,7 @@ public class Card
     // Denna kod skriver information om kortet som du har på handen. Samt värdet på kortet
     public void PrintInfo()
     {
-        Console.WriteLine($"Ditt kort är {symbol} {number}");
+        Console.WriteLine($"{symbol} {number}");
         // Console.WriteLine($"Du har {Value} poäng");
 
 
