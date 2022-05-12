@@ -5,16 +5,12 @@ using System;
 public class Player
 {
     private string name = "";
-    private int startCapital = 1000;
-    private int spendMoney = 0;
     public int myPoints = 0;
     public int cardsInHand = 0;
-
-
-
+    private int startCapital = 1000;
+    private int spendMoney = 0;
 
     Deck myDeck = new Deck();
-
 
     public void MyDeck()
     {
@@ -30,19 +26,9 @@ public class Player
 
         cardsInHand++;
 
-
-
-        // myDeck.Draw();
         c.PrintInfo();
     }
-    // public void OpponentDeck()
-    // {
-    //     Card c = myDeck.Draw();
-    //     myPoints += c.Value;
 
-    //     // myDeck.Draw();
-    //     c.PrintInfo();
-    // }
     // Metod för att sköta bettningen där man i början av varje spel ska välja den summan man vill betta på.
     // Man kommer endast kunna betta (50, 100, 250, 500 och 1000). 
     // Twisten är om man satsar 1000 alltså hela capitalet får man dubbla summan tillbaka
@@ -61,6 +47,8 @@ public class Player
         if (myPoints > 21)
         {
             Console.WriteLine("Du har förlorat denna hand");
+
+
             return false;
 
         }

@@ -18,7 +18,7 @@ while (game)
     while (Console.ReadKey().Key != ConsoleKey.Spacebar)
     {
 
-        Console.WriteLine("Tryck på space för att slumpa ett kort");
+        Console.WriteLine("Fel inmatning");
     }
 
     // Drar korten man får
@@ -39,6 +39,7 @@ while (game)
 
         Console.WriteLine("Tryck på space för att slumpa bankens kort");
     }
+
 
     p2.MyDeck();
 

@@ -15,6 +15,10 @@ public class Opponent : Player
 
     protected int startCapital = 1000;
     protected string name = "";
+
+    protected int spendMoney = 0;
+
+    public int cardInHand = 0;
    
 
     
