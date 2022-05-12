@@ -21,8 +21,8 @@ public class Deck
 
         // Detta betyder att alla kort från 2-10 har alla poäng för varje nummer. Ruter 5 är det 5 poäng
         // Kläda kort är värda 10
-        // Ess är just nu värt 1 poäng och i blackjack så kan ess antingen bli 11 eller 1. För att en så kallad Blackjack krävs det 
-        // 21 poäng
+        // Ess är just nu värt 1 poäng och i blackjack så kan ess antingen bli 11 eller 1. 
+        //  För att en så kallad Blackjack krävs det 21 poäng
         foreach (string suit in suits)
         {
             for (int i = 0; i < numbers.Length; i++)

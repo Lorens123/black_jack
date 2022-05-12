@@ -15,6 +15,7 @@ Player p2 = new Opponent();
 
 while (game)
 {
+    // Denna kod säger att man ska trycka Space för att kunna dra ett kort
     while (Console.ReadKey().Key != ConsoleKey.Spacebar)
     {
 
@@ -22,12 +23,10 @@ while (game)
     }
 
     // Drar korten man får
+
+
     Console.WriteLine("--------------------------------------------");
     p1.MyDeck();
-
-
-    // Skriver ut info om kortet och poängen du har fått
-    // p1.myPoints += c.Value;
 
     Console.WriteLine($"Du har {p1.myPoints} poäng");
     Console.WriteLine($"Banken drar ett kort. Tryck Space");
@@ -49,7 +48,10 @@ while (game)
     Console.WriteLine("-------------------------------------------");
     Console.WriteLine("Utmanare " + p1.myPoints + " - " + p2.myPoints + " Banken ");
 
-
+    if (p1.cardsInHand == 5 || p2.cardsInHand == 5)
+    {
+        game = false;
+    }
 
 }
 
